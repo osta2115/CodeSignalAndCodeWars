@@ -5,9 +5,9 @@ public class matrixElementsSum {
         int[][] matrix = {{0,1,1,2},
                          {0,5,0,0},
                          {2,0,3,3}};
-        System.out.println(solution(matrix));
+        System.out.println(matrixElementsSolution(matrix));
     }
-    public static int solution(int[][] matrix) {
+    public static int matrixElementsSolution(int[][] matrix) {
         int sum = 0;
         for(int i = 0; i < matrix[0].length; i++) {
             for(int j = 0; j < matrix.length; j++) {
