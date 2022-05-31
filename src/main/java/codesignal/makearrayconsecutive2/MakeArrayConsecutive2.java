@@ -6,10 +6,10 @@ import java.util.List;
 public class MakeArrayConsecutive2 {
     public static void main(String[] args) {
         int[] statues = new int[] {6, 2, 3, 8};
-        System.out.println(solution(statues));
+        System.out.println(MakeArrayConsecutive2Solution(statues));
     }
 
-    public static int solution(int[] statues) {
+    public static int MakeArrayConsecutive2Solution(int[] statues) {
         List<Integer> listStatues = Arrays.stream(statues)
                 .boxed()
                 .sorted()
